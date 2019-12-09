@@ -1,0 +1,11 @@
+const OFFERED_RIDE = "OFFERED_RIDE";
+const REQUESTED_RIDE = "REQUESTED_RIDE";
+const COMPANY_RIDE = "COMPANY_RIDE";
+const MY_RIDES = "MY_RIDES";
+
+module.exports = {
+    OFFERED_RIDE,
+    REQUESTED_RIDE,
+    COMPANY_RIDE,
+    MY_RIDES
+};

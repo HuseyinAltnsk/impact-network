@@ -1,0 +1,37 @@
+.page{
+  background-color: lightblue;
+  border: red;
+  padding: 80px;
+}
+
+.title{
+  font-size: 35px;
+  background-color: lightgreen;
+  color: #323B3C;
+  font-family: 'sans-serif';
+  margin-left: 22%;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 5px;
+}
+
+.info{
+  font-size: 30px;
+  border: 1px solid red;
+  padding: 25px;
+  margin-left: 20%;
+}
+
+.to{
+  font-size: 25px;
+}
+.detail{
+  /*margin-left: 20%;*/
+  /*background-color: lightred;*/
+  /*font-size: 20px;*/
+  /*border: 1px solid black;*/
+}
+
+.button{
+
+}

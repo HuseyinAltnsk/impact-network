@@ -1,0 +1,61 @@
+.rideButtonGroup {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.rideButton {
+    -webkit-border-radius: 0;
+    margin: 0;
+    flex: 1 4 auto;
+}
+
+.rideButtonColoring {
+    background-color: #3b3f3f;
+    color: white;
+    box-shadow: 2px 3px #171919;
+}
+
+.rideButtonColoring:hover {
+    background-color: #ce3b3b;
+}
+
+.left {
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+}
+
+.right {
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+}
+
+.noBorderRight {
+    border-right: none;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.rides {
+
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.buttonDark {
+    background-color: #565656;
+    border-color: #f2f2f2;
+    color: #f2f2f2;
+}
+
+.buttonDark:hover {
+    background-color: #8d8d8d;
+}

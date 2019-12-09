@@ -1,0 +1,60 @@
+.ride {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border: solid 1px black;
+    border-radius: 15px;
+    min-height: 70px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    background-color: #595b5b;
+    color: white;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 3px #171919;
+}
+
+.ride:hover{
+    background-color: #2a2d2d;
+}
+
+.buttonRide{
+    box-shadow: 1px 2px #171919;
+    margin: 15px;
+}
+.buttonRide:hover{
+    background-color: #ce3b3b;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    flex: 4 1 auto;
+}
+
+.to {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col2 {
+    margin-left: 30px;
+
+}

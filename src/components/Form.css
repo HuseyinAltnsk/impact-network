@@ -1,0 +1,9 @@
+.details label{
+  font-weight: bold;
+  color: blue;
+}
+.bar{
+  width: 236px;
+  padding: 5px;
+  margin-left: 0.5%;
+}
