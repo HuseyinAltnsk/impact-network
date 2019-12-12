@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import SearchBar from './SearchBar';
+import "./Home.css";
 import { withStyles } from '@material-ui/core/styles';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -88,10 +89,16 @@ class Home extends Component {
                 switch (projectItem.type) {
                     default:  //case "ART":
                         return (
-                            <div>
-                                <h4>Project Name: {projectItem.name}</h4>
-                                <h5>Project Owner: {projectItem.owner}</h5>
+                            <div className="projectView">
+                                <div className="">
+                                <span className="">
+                                    <h4>Project Name: {projectItem.name}</h4>
+                                </span>
+                                <span className="">
+                                    <h5>Project Owner: {projectItem.owner}</h5>
+                                </span>
                                 <h6>Project Category: {projectItem.type}</h6>
+                                </div>
                             </div>
                         );
                     // case OFFERED_RIDE:
@@ -107,18 +114,18 @@ class Home extends Component {
         
         return (
             <div className="">
-                <header>WELCOME TO THE HOME PAGE
+                <header>WELCOME TO THE HOME PAGE!
                 <h2 className="">{firstName} {lastName}</h2>
                 {!username &&
                 <h2>User not found!</h2>}
                 <h4 className="header">Username: {username}</h4>
-                <Link to="">
+                {/* <Link to="/about">
                         <button className="">About</button>
-                </Link>
+                </Link> */}
                 <Link to="">
                         <button className="">Our Project</button>
                 </Link>
-                <SearchBar onSubmit={() => {}}/>
+                {/* <SearchBar onSubmit={() => {}}/> */}
                 <Button
                     aria-controls="customized-menu"
                     aria-haspopup="true"
@@ -143,17 +150,16 @@ class Home extends Component {
                     </StyledMenuItem>
                 </StyledMenu>
 
-                <Link to="/user/login">
+                {/* <Link to="/user/login">
                         <button className="">LOG IN</button>
                 </Link>
-                {/* display button only if not logged in. */}
                 <Link to="/user/register">
                         <button className="">REGISTER</button>
-                </Link>
+                </Link> */}
                 </header>
                 <body>
                     <div>
-                        <p>450 girls in Anatolia learned web dev</p>
+                        <h2>450 girls in Anatolia learned web dev</h2>
                     </div>
                     <div>
                         <Button

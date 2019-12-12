@@ -1,0 +1,45 @@
+.projectView {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border: solid 1px black;
+    border-radius: 15px;
+    min-height: 70px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    background-color: #595b5b;
+    color: white;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 3px #171919;
+}
+.projectView:hover{
+    background-color: #2a2d2d;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    flex: 4 1 auto;
+}
+.owner {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+=
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+body {
+  padding: 20px 80px;
+  background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+}
