@@ -16,7 +16,7 @@
     "express-session": "^1.17.0",
     "faker": "^4.1.0",
     "helmet": "^3.21.2",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "jsonwebtoken": "^8.5.1",
     "material-ui": "^0.20.2",
     "mongoose": "^5.7.14",
